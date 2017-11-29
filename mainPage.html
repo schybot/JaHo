@@ -7,6 +7,46 @@
 </head>
 
 <body>
+<div id="test">
+<p>hejsan</p>
+</div>
+
+<script>
+function launch() {
+    document.getElementById("Technology").innerHTML="tjabba";
+}
+function clear() {
+    document.getElementById("mySelect").disabled=false;
+}
+</script>
+</head>
+<body>
+
+<form>
+<select id="Technology">
+  <option>All</option>
+  <option>RPA</option>
+  <option>AI</option>
+  <option>Cloud</option>
+  <option>VR</option>
+  <option>AR</option>
+  <option>Other</option>
+</select>
+<select id="Countries">
+  <option>All</option>
+  <option>Sweden</option>
+  <option>Norway</option>
+  <option>Denmark</option>
+  <option>Finland</option>
+  <option>Latvia</option>
+  <option>Other</option>
+</select>
+<br><br>
+<input type="button" onclick="launch()" value="Launch">
+<input type="button" onclick="clear()" value="Enable list">
+</form>
+
+
 <img src="Nordic_map.svg" alt="nordicMap" height="800">
 </body>
 
